@@ -1,9 +1,9 @@
-from car.car import Car
-from car.engine.sternman_engine import SternmanEngine
-from car.battery.spindler_battery import Spindler_battery
+from car import Car
+from engine.sternman_engine import SternmanEngine
+from battery.spindler_battery import Spindler_battery
 
 
-class Calliope(Car):
+class Palindrome(Car):
     def __init__(self, last_service_date, warning_light_is_on):
         self.engine = SternmanEngine(warning_light_is_on)
         self.battery = Spindler_battery(last_service_date)
