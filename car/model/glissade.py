@@ -10,4 +10,4 @@ class Glissade(Car):
         super().__init__(self.engine, self.battery)
 
     def needs_service(self):
-        return super.needs_service()
+        return super().needs_service()
