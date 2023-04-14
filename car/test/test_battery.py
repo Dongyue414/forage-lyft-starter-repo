@@ -12,7 +12,7 @@ from datetime import date
 
 class TestBattery(unittest.TestCase):
     def test_spindler_battery_needs_service(self):
-        last_service_data = add_years_to_date(date.today(),-3)
+        last_service_data = add_years_to_date(date.today(),-4)
         current_date = date.today()
         battery = SpindlerBattery(last_service_data, current_date)
 

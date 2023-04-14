@@ -9,8 +9,6 @@ from engine.sternman_engine import SternmanEngine
 from engine.willoughby_engine import WilloughbyEngine
 
 
-
-
 class TestEngine(unittest.TestCase):
     def test_capulet_engine_needs_service(self):
         current_mileage = 30001
