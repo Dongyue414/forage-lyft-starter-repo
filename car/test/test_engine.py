@@ -1,8 +1,9 @@
 import unittest
 import sys 
+import os
 
-sys.path.append("..") 
-sys.path.append("..\..")
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
 
 from engine.capulet_engine import CapuletEngine
 from engine.sternman_engine import SternmanEngine
